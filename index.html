@@ -44,6 +44,59 @@
 		<div class="offcanvas-overlay"></div>
 		<!-- offcanvas-start-end -->
 
+
+		<!-- drop-menu -->
+		<div class="drop-menu">
+			<div class="container">
+				<div class="drop-menu__inner">
+
+					<div class="drop-menu__title">
+						<a href="index.html" class="drop-menu__logo">
+							<img src="images/drop-menu-logo.svg" alt="">
+						</a>
+						<a href="#" class="drop-menu__closer" id="drop-menu-closer">
+							<i class="fal fa-times"></i>
+						</a>
+					</div>
+
+					<div class="drop-menu__main">
+						<div class="drop-menu__left">
+							<ul class="drop__main-menu">
+								<li><a href="#">HOME</a></li>
+								<li><a href="#">THE PROCESS</a></li>
+								<li><a href="#">SERVICES</a></li>
+								<li><a href="#">PORTFOLIO</a></li>
+								<li><a href="#">BLOG</a></li>
+								<li><a href="#">FAQ</a></li>
+								<li><a href="#">CONTACT US</a></li>
+							</ul>
+						</div>
+						<div class="drop-menu__right">
+							<div class="drop-menu__social">
+								<h4>SOCIAL</h4>
+								<ul>
+									<li><a href="#">TW</a></li>
+									<li><a href="#">FB</a></li>
+									<li><a href="#">IN</a></li>
+								</ul>
+							</div>
+							<div class="drop-menu__r-cont">
+								<h4 class="text-uppercase">United kingdom</h4>
+								<p>3 Watchgate, Newby Road Industrial Estate, Hazel 
+									<br>
+									Grove, SK7 5DB</p>
+							</div>
+							<div class="drop-menu__r-ellipse-start">
+								<p>Start Your Project</p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!-- drop-menu-end -->
+
+
 		<!-- header-section -->
 		<header class="header-section">
 			<div class="header_in">
@@ -53,7 +106,7 @@
 							<img src="images/logo.svg" alt="logo">
 						</a>
 	
-						<div class="main-menu">
+						<div class="main-menu d-md-block d-none">
 							<ul>
 								<li><a href="#">services</a></li>
 								<li><a href="#">portfolio</a></li>
@@ -77,8 +130,9 @@
 					<div class="hero-section__inner">
 						<div class="hero__content">
 							<h1 class="h1">Bringing brands to life 
+								<br>
 								<span class="op8">at events worldwide</span></h1>
-							<div class="ellipse-start">
+							<div class="hero-ellipse-start">
 								<p>Start Your Project</p>
 							</div>
 						</div>
@@ -88,12 +142,12 @@
 
 
 			<!-- we-section -->
-			<section class="we-section">
+			<section class="we-section pb-0">
 				<div class="container">
 					<div class="we-section__inner">
 
 						<div class="we-section__title sec-title cont-blk">
-							<h2 class="h2">Our <br> clients</h2>
+							<h2 class="h2 mb-0">Our <br> clients</h2>
 						</div>
 
 						<div class="we-section__main row sec-main-row">
@@ -130,12 +184,12 @@
 
 
 			<!-- we-section -->
-			<section class="we-section">
+			<section class="we-section pb-0">
 				<div class="container">
 					<div class="we-section__inner">
 
 						<div class="we-section__title sec-title cont-blk">
-							<h2 class="h2">We are <br> experts</h2>
+							<h2 class="h2 mb-0">We are <br> experts</h2>
 						</div>
 
 						<div class="we-section__main sec-main-row row">
@@ -164,8 +218,8 @@
 					<div class="count-section__inner">
 
 						<div class="count__ellipses-wrap">
-							<h3><span class="count">3,218</span></h3>
 							<div class="count__ellipse count__ellipse--1">
+								<h3><span class="count">3,218</span></h3>
 								<p>project completed</p>
 							</div>
 							<div class="count__ellipse count__ellipse--2">
@@ -189,11 +243,17 @@
 				<div class="container">
 					<div class="a-section__inner">
 
-						<div class="a__cont-wrap">
-							<div class="a__item">
+						<div class="a__slider a__slider-active owl-carousel">
+							<div class="a__slide">
 								<img src="images/a-1.png" alt="">
 							</div>
-							<div class="a__item">
+							<div class="a__slide">
+								<img src="images/a-2.png" alt="">
+							</div>
+							<div class="a__slide">
+								<img src="images/a-1.png" alt="">
+							</div>
+							<div class="a__slide">
 								<img src="images/a-2.png" alt="">
 							</div>
 						</div>
@@ -205,16 +265,16 @@
 
 
 			<!-- about-us -->
-			<section class="about-us">
+			<section class="about-us-section">
 				<div class="container">
 					<div class="about-us__inner">
 
 						<div class="about-us__title sec-title cont-blk">
-							<h2 class="h2">About us</h2>
+							<h2 class="h2 mb-0">About us</h2>
 						</div>
 
 						<div class="about-us__main sec-main-row row">
-							<div class="col-lg-7 sec-main-row__inner ms-auto about-us__inner">
+							<div class="col-lg-7 sec-main-row__inner ms-auto about-us__main__inner">
 								<div class="cont-blk">
 									<p>Focal Exhibitions is a leading exhibition stand design company with a proven track record over many decades. Therefore you can trust our expertise and more importantly we partner leading global brands time and time again. No project is too big or too small.</p>
 									<a href="#" class="bottom-button default-button">Read More</a>
@@ -229,7 +289,7 @@
 
 						<div class="about-us__cta-lin">
 							<p><span class="bold">Do you have any upcoming exhibition shows?</span> Call our team on 01663 744066 or send us a message.</p>
-							<a href="#" class="sm-button">Talk to us</a>
+							<a href="#" class="sm-button button">Talk to us</a>
 						</div>
 						
 					</div>
@@ -244,7 +304,19 @@
 					<div class="b-section__inner">
 
 						<div class="b__slider-outer">
-							<div class="b__slider">
+							<div class="b__slider b__slider-active owl-carousel">
+								<div class="b__slide">
+									<img src="images/b-1.png" alt="">
+								</div>
+								<div class="b__slide">
+									<img src="images/b-2.png" alt="">
+								</div>
+								<div class="b__slide">
+									<img src="images/b-3.png" alt="">
+								</div>
+								<div class="b__slide">
+									<img src="images/b-4.png" alt="">
+								</div>
 								<div class="b__slide">
 									<img src="images/b-1.png" alt="">
 								</div>
@@ -279,13 +351,13 @@
 					<div class="attending-section__inner">
 
 						<div class="attending-section__title sec-title cont-blk">
-							<h2 class="h2">Shows we are <br> attending</h2>
+							<h2 class="h2 text-normal">Shows we are <br> attending</h2>
 						</div>
 
 						<div class="attending__bx">
 							<div class="attending__bx__title">
 								<ul class="nav attending__bx__title__nav">
-									<li><a href="#">Jan</a></li>
+									<li><a class="active" href="#">Jan</a></li>
 									<li><a href="#">Feb</a></li>
 									<li><a href="#">Mar</a></li>
 									<li><a href="#">April</a></li>
@@ -411,7 +483,7 @@
 									<h3>Penguin random house</h3>
 								</div>
 								<div class="c-box__cont__right">
-									<a href="#" class="default-button default-button--theme1">See Project</a>
+									<a href="#" class="button default-button default-button--theme1">See Project</a>
 								</div>
 							</div>
 						</div>
@@ -424,10 +496,10 @@
 			<!-- project-section -->
 			<section class="project-section">
 				<div class="container">
-					<div class="project-section__title">
+					<div class="project-section__inner">
 						
 						<div class="project-section__title">
-							<h2 class="h2">PROJECTS</h2>
+							<h2 class="h2 mb-0">PROJECTS</h2>
 							<a href="#" class="default-button button">View More</a>
 						</div>
 
@@ -444,7 +516,7 @@
 							</div>
 							<!-- project__grid__item-end -->
 							<!-- project__grid__item -->
-							<div class="project__grid__item project__grid__item--2 project__grid__item--r2">
+							<div class="project__grid__item project__grid__item--2 project__grid__item--r2 justify-content-end">
 								<div class="project__grid__item__image">
 									<img src="images/project-2.png" alt="">
 								</div>
@@ -468,7 +540,7 @@
 						</div>
 
 
-						<div class="project__grid project__grid--2">
+						<div class="project__grid project__grid--2 mb-0">
 							<!-- project__grid__item -->
 							<div class="project__grid__item project__grid__item--1 project__grid__item--r2">
 								<div class="project__grid__item__image">
@@ -524,18 +596,174 @@
 							<div class="col-lg-3 col-md-6">
 								<div class="blog-g">
 									<div class="blog__cont">
-										<div class="blog_cont_tp">
-											<h3>How to man your exhibition stand effectively </h3>
+										<div class="blog__cont_tp">
+											<h3><a href="#">How to man your exhibition stand effectively </a></h3>
 										</div>
 										<div class="blog__cont__meta">
 											<a href="#" class="blog__auth_imt">
 												<img src="images/blog-person.png" alt="">
 											</a>
 											<div class="blog__tag-wrap">
-												<div class="blog__tag">News</div>
-												<div class="blog__tag">April 2020</div>
+												<a href="#" class="blog__tag">News</a>
+												<a href="#" class="blog__tag">April 2020</a>
 											</div>
 										</div>
+									</div>
+								</div>
+							</div>
+							<div class="col-lg-3 col-md-6">
+								<div class="blog-g">
+									<div class="blog__cont">
+										<div class="blog__cont_tp">
+											<h3><a href="#">How to man your exhibition stand effectively </a></h3>
+										</div>
+										<div class="blog__cont__meta">
+											<a href="#" class="blog__auth_imt">
+												<img src="images/blog-person.png" alt="">
+											</a>
+											<div class="blog__tag-wrap">
+												<a href="#" class="blog__tag">News</a>
+												<a href="#" class="blog__tag">April 2020</a>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="col-lg-6">
+								<div class="blog-g">
+									<div class="blog__cont">
+										<div class="blog__cont_tp">
+											<h3><a href="#">How to man your exhibition stand effectively </a></h3>
+										</div>
+										<div class="blog__cont__meta">
+											<a href="#" class="blog__auth_imt">
+												<img src="images/blog-person.png" alt="">
+											</a>
+											<p class="blog__auth__name">by Jordan Wolden</p>
+										</div>
+									</div>
+									<div class="blog__img">
+										<img src="images/s-blog-1.png" alt="">
+										<div class="blog__tag-wrap blog__tag-wrap--float">
+											<a href="#" class="blog__tag">News</a>
+											<a href="#" class="blog__tag">April 2020</a>
+										</div>
+									</div>
+								</div>
+							</div>
+
+							<div class="col-lg-6">
+								<div class="blog-g">
+									<div class="blog__cont">
+										<div class="blog__cont_tp">
+											<h3><a href="#">How to man your exhibition stand effectively </a></h3>
+										</div>
+										<div class="blog__cont__meta">
+											<a href="#" class="blog__auth_imt">
+												<img src="images/blog-person.png" alt="">
+											</a>
+											<div class="blog__tag-wrap">
+												<a href="#" class="blog__tag">News</a>
+												<a href="#" class="blog__tag">April 2020</a>
+											</div>
+										</div>
+									</div>
+									<div class="blog__img">
+										<img src="images/s-blog-1.png" alt="">
+									</div>
+								</div>
+							</div>
+							<div class="col-lg-3 col-md-6">
+								<div class="blog-g">
+									<div class="blog__cont">
+										<div class="blog__cont_tp">
+											<h3><a href="#">How to man your exhibition stand effectively </a></h3>
+										</div>
+										<div class="blog__cont__meta">
+											<a href="#" class="blog__auth_imt">
+												<img src="images/blog-person.png" alt="">
+											</a>
+											<div class="blog__tag-wrap">
+												<a href="#" class="blog__tag">News</a>
+												<a href="#" class="blog__tag">April 2020</a>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="col-lg-3 col-md-6">
+								<div class="blog-g">
+									<div class="blog__cont">
+										<div class="blog__cont_tp">
+											<h3><a href="#">How to man your exhibition stand effectively </a></h3>
+										</div>
+										<div class="blog__cont__meta">
+											<a href="#" class="blog__auth_imt">
+												<img src="images/blog-person.png" alt="">
+											</a>
+											<div class="blog__tag-wrap">
+												<a href="#" class="blog__tag">News</a>
+												<a href="#" class="blog__tag">April 2020</a>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+
+							<div class="col-lg-3 col-md-6">
+								<div class="blog-g">
+									<div class="blog__cont">
+										<div class="blog__cont_tp">
+											<h3><a href="#">How to man your exhibition stand effectively </a></h3>
+										</div>
+										<div class="blog__cont__meta">
+											<a href="#" class="blog__auth_imt">
+												<img src="images/blog-person.png" alt="">
+											</a>
+											<div class="blog__tag-wrap">
+												<a href="#" class="blog__tag">News</a>
+												<a href="#" class="blog__tag">April 2020</a>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="col-lg-3 col-md-6">
+								<div class="blog-g">
+									<div class="blog__cont">
+										<div class="blog__cont_tp">
+											<h3><a href="#">How to man your exhibition stand effectively </a></h3>
+										</div>
+										<div class="blog__cont__meta">
+											<a href="#" class="blog__auth_imt">
+												<img src="images/blog-person.png" alt="">
+											</a>
+											<div class="blog__tag-wrap">
+												<a href="#" class="blog__tag">News</a>
+												<a href="#" class="blog__tag">April 2020</a>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="col-lg-6">
+								<div class="blog-g">
+									<div class="blog__cont">
+										<div class="blog__cont_tp">
+											<h3><a href="#">How to man your exhibition stand effectively </a></h3>
+										</div>
+										<div class="blog__cont__meta">
+											<a href="#" class="blog__auth_imt">
+												<img src="images/blog-person.png" alt="">
+											</a>
+											<div class="blog__tag-wrap">
+												<a href="#" class="blog__tag">News</a>
+												<a href="#" class="blog__tag">April 2020</a>
+											</div>
+										</div>
+									</div>
+									<div class="blog__img">
+										<img src="images/s-blog-1.png" alt="">
 									</div>
 								</div>
 							</div>
@@ -547,11 +775,139 @@
 			<!-- blog-g-section-end -->
 
 
+			<!-- g-review-section -->
+			<section class="g-review-section">
+				<div class="container">
+					<div class="g-review-section__inner">
+
+						<div class="g-review-section__title">
+							<h2 class="h2 text-normal">Google <span class="txt-dm">Reviews</span></h2>
+							<a href="#" class="default-button button">All Reviews</a>
+						</div>
+
+						<div class="g-review-slider_outer">
+							<div class="g-review-slider g-review-slider-active owl-carousel">
+								<div class="g-review-slide">
+									<div class="g-review-slide__cont">
+										<div class="g-l-rat">
+											<img src="images/google.png" alt="">
+											<ul>
+												<li><img src="images/star.png" alt=""></li>
+												<li><img src="images/star.png" alt=""></li>
+												<li><img src="images/star.png" alt=""></li>
+												<li><img src="images/star.png" alt=""></li>
+												<li><img src="images/star.png" alt=""></li>
+												<li><img src="images/star.png" alt=""></li>
+											</ul>
+										</div>
+										<h4>We've worked with Make to redesign our public and media website. The team have been great to work with, accommodating last minute requests and having a thorough design process. would highly recommend Make for any website needs.</h4>
+										<h5>PR & Comms | Virgin Racing</h5>
+									</div>
+								</div>
+								<div class="g-review-slide">
+									<div class="g-review-slide__cont">
+										<div class="g-l-rat">
+											<img src="images/google.png" alt="">
+											<ul>
+												<li><img src="images/star.png" alt=""></li>
+												<li><img src="images/star.png" alt=""></li>
+												<li><img src="images/star.png" alt=""></li>
+												<li><img src="images/star.png" alt=""></li>
+												<li><img src="images/star.png" alt=""></li>
+												<li><img src="images/star.png" alt=""></li>
+											</ul>
+										</div>
+										<h4>We've worked with Make to redesign our public and media website. The team have been great to work with, accommodating last minute requests and having a thorough design process. would highly recommend Make for any website needs.</h4>
+										<h5>PR & Comms | Virgin Racing</h5>
+									</div>
+								</div>
+								<div class="g-review-slide">
+									<div class="g-review-slide__cont">
+										<div class="g-l-rat">
+											<img src="images/google.png" alt="">
+											<ul>
+												<li><img src="images/star.png" alt=""></li>
+												<li><img src="images/star.png" alt=""></li>
+												<li><img src="images/star.png" alt=""></li>
+												<li><img src="images/star.png" alt=""></li>
+												<li><img src="images/star.png" alt=""></li>
+												<li><img src="images/star.png" alt=""></li>
+											</ul>
+										</div>
+										<h4>We've worked with Make to redesign our public and media website. The team have been great to work with, accommodating last minute requests and having a thorough design process. would highly recommend Make for any website needs.</h4>
+										<h5>PR & Comms | Virgin Racing</h5>
+									</div>
+								</div>
+								<div class="g-review-slide">
+									<div class="g-review-slide__cont">
+										<div class="g-l-rat">
+											<img src="images/google.png" alt="">
+											<ul>
+												<li><img src="images/star.png" alt=""></li>
+												<li><img src="images/star.png" alt=""></li>
+												<li><img src="images/star.png" alt=""></li>
+												<li><img src="images/star.png" alt=""></li>
+												<li><img src="images/star.png" alt=""></li>
+												<li><img src="images/star.png" alt=""></li>
+											</ul>
+										</div>
+										<h4>We've worked with Make to redesign our public and media website. The team have been great to work with, accommodating last minute requests and having a thorough design process. would highly recommend Make for any website needs.</h4>
+										<h5>PR & Comms | Virgin Racing</h5>
+									</div>
+								</div>
+							</div>
+						</div>
+
+					</div>
+				</div>
+			</section>
+			<!-- g-review-section-end -->
+
+
 		</main><!-- main end -->
 
 		<!-- footer-section -->
 		<footer class="footer-section">
-			
+			<div class="container">
+				<div class="footer-section__inner">
+					<div class="footer__top-cta cont-blk cont-blk--center">
+						<h2 class="h2 text-normal">
+							Got a project to discuss? 
+							<br>
+							<span class="txt-dm">Reach out and say Hi</span>
+						</h2>
+						<a href="#" class="bottom-button default-button default-button--theme1">Talk To Us</a>
+					</div>
+
+					<div class="footer__main">
+						<div class="footer__main__tp">
+							<a href="index.html" class="footer-logo">
+								<img src="images/footer-logo.svg" alt="">
+							</a>
+							<ul class="f-menu">
+								<li><a href="#">home</a></li>
+								<li><a href="#">the process</a></li>
+								<li><a href="#">services</a></li>
+								<li><a href="#">portfolio</a></li>
+								<li><a href="#">blog</a></li>
+								<li><a href="#">faq</a></li>
+								<li><a href="#">contact</a></li>
+							</ul>
+						</div>
+						<div class="footer__main__bt">
+							<ul class="fs-menu">
+								<li><a href="#">TW</a></li>
+								<li><a href="#">FB</a></li>
+								<li><a href="#">IN</a></li>
+							</ul>
+							<ul class="fl-menu">
+								<li><a href="#">Privacy Policy</a></li>
+								<li><a href="#">&copy; 2022 Focal Exhibitions. All rights reserved</a></li>
+							</ul>
+						</div>
+					</div>
+				</div>
+			</div>
 		</footer><!--End footer-section -->
 	</div><!-- main-wrap -->
 	

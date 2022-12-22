@@ -26,27 +26,65 @@
   
 
   // owl-carousel
-  $('.brand-active').owlCarousel({
-    loop:true,
-    margin:50,
+  $('.a__slider-active').owlCarousel({
+    loop:false,
+    margin:24,
+    items:1,
+    autoWidth:true,
+    responsiveClass:true,
+    nav:false,
+    navText: ['<span class="fas fa-chevron-left fa-2x"></span>','<span class="fas fa-chevron-right fa-2x"></span>'],
+    responsive:{
+      0:{
+        margin: 12
+      },
+      575:{
+        margin: 15
+      },
+      1199:{
+        margin:24
+      }
+  }
+  });
+  $('.b__slider-active').owlCarousel({
+    loop:false,
+    margin:24,
+    items:1,
+    autoWidth:true,
     responsiveClass:true,
     nav:false,
     navText: ['<span class="fas fa-chevron-left fa-2x"></span>','<span class="fas fa-chevron-right fa-2x"></span>'],
     responsive:{
         0:{
-            items:1,
-            nav:false
+          margin: 12
         },
-        600:{
-            items:3,
-            nav:false
+        575:{
+          margin: 15
         },
-        1000:{
-            items:4,
-            nav:false,
-            loop:false
+        1199:{
+          margin:24
         }
     }
+  });
+  $('.g-review-slider').owlCarousel({
+    loop:false,
+    margin:24,
+    items:1,
+    autoWidth:true,
+    responsiveClass:true,
+    nav:false,
+    navText: ['<span class="fas fa-chevron-left fa-2x"></span>','<span class="fas fa-chevron-right fa-2x"></span>'],
+    responsive:{
+      0:{
+        margin: 12
+      },
+      575:{
+        margin: 15
+      },
+      1199:{
+        margin:24
+      }
+  }
   });
         
 
