@@ -616,6 +616,11 @@ p:last-child{
   font-size: 34px;
   font-weight: 400;  
 }
+.h5 {
+  font-size: 20px;
+  margin: 0 0 25px;
+  font-weight: 500;
+}
 .txt-dm {
   color: #AFAFAF;
 }
@@ -1387,7 +1392,7 @@ p:last-child{
 
 
 
-/* ============ section ============ */
+/* ============ about-clip-section ============ */
 .about-clip-section {
   padding: 140px 0;
   margin-bottom: 450px;
@@ -1439,13 +1444,23 @@ p:last-child{
   --width: 333px;
   margin: 165px 0 0 -54px;
 }
-/* ============ section-end ============ */
+
+
+.about-clip-section.about-clip-section--2nd {
+  padding-bottom: 290px;
+  margin-bottom: 0;
+  background: url('images/about-clip-section-2.png') no-repeat center center/100% 100%;
+}
+.about-clip-section--2nd-ttl {
+  margin-bottom: 140px;
+}
+/* ============ about-clip-section-end ============ */
 
 
 
 /* ============ fe-section ============ */
 .fe-section {
-  padding: 120px ;
+  padding: 120px 0;
 }
 .fe-section__inner {
 
@@ -1464,6 +1479,7 @@ p:last-child{
 .fe-chips-row {
   gap: inherit;
   display: flex;
+  flex-wrap: wrap;
 }
 .fe-chip {
   padding: 14px 20px;
@@ -1586,6 +1602,61 @@ p:last-child{
 }
 /* ============ principle-section-end ============ */
 
+
+/* ============ hwd-section-section ============ */
+.hwd-section {
+  padding: 300px 0 120px;
+}
+.hwd-section__inner {
+
+}
+.hwd-section__title {
+
+}
+
+.hwd__ic-wrap {
+  margin: 0 0 115px;
+}
+.hwd-card {
+  height: 635px;
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  color: #fff;
+  background-size: cover !important;
+  background-position: center !important;
+}
+.hwd-card__content {
+  padding: 42px;
+  gap: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: auto;
+  flex-wrap: wrap;
+}
+.hwd-card__content__left {
+
+}
+.hwd-card__content__left h3 {
+  font-size: 60px;
+  margin: 0;
+  font-weight: 500;
+}
+.hwd-card__content__right {
+
+}
+.hwd-card__content__right .button {
+
+}
+
+.hwd__tc-wrap {
+  margin: 0 0 250px;
+}
+.hwd__tc-wrap p {
+  margin: 0 0 25px;
+}
+/* ============ hwd-section-section-end ============ */
 
 
 

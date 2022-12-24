@@ -104,7 +104,7 @@
 		<!-- main -->
 		<main>
 			<!-- hero-section -->
-			<section class="hero-section" style="background: url('images/about-us-hero.png')">
+			<section class="hero-section" style="background: url('images/about-us-hero.png') no-repeat center center/contain, #231F20;">
 				<div class="container">
 					<div class="hero-section__inner">
 						<div class="hero__content text-left mx-0">
@@ -146,11 +146,11 @@
 
 						<div class="count__ellipses-wrap about-clip--counts">
 							<div class="count__ellipse count__ellipse--ac-clip-1 count-ellipse--theme1">
-								<h3><span class="count">120</span></h3>
+								<h3><span class="counter">120</span></h3>
 								<p>cities visited</p>
 							</div>
 							<div class="count__ellipse count__ellipse----ac-clip-2">
-								<h3><span class="count">32</span></h3>
+								<h3><span class="counter">32</span></h3>
 								<p>years experience</p>
 							</div>
 						</div>
@@ -185,7 +185,8 @@
 						</div>
 
 						<div class="fe-chips">
-							<div class="fe-chips-row">
+							<!-- desktop -->
+							<div class="fe-chips-row d-sm-flex d-none">
 								<a href="#" class="fe-chip ms-auto">
 									<div class="icon"><img src="images/fe-chip-1.png" alt=""></div>
 									<h4>Health & Beauty</h4>
@@ -199,7 +200,7 @@
 									<h4>Construction</h4>
 								</a>
 							</div>
-							<div class="fe-chips-row">
+							<div class="fe-chips-row d-sm-flex d-none">
 								<a href="#" class="fe-chip ms-auto">
 									<div class="icon"><img src="images/fe-chip-4.png" alt=""></div>
 									<h4>Media</h4>
@@ -213,7 +214,48 @@
 									<h4>Pharmaceutical</h4>
 								</a>
 							</div>
-							<div class="fe-chips-row">
+							<div class="fe-chips-row d-sm-flex d-none">
+								<a href="#" class="fe-chip">
+									<div class="icon"><img src="images/fe-chip-7.png" alt=""></div>
+									<h4>Aerospace</h4>
+								</a>
+								<a href="#" class="fe-chip">
+									<div class="icon"><img src="images/fe-chip-8.png" alt=""></div>
+									<h4>Retail</h4>
+								</a>
+								<a href="#" class="fe-chip">
+									<div class="icon"><img src="images/fe-chip-9.png" alt=""></div>
+									<h4>Travel & Hospitality</h4>
+								</a>
+							</div>
+							<!-- desktop-end -->
+							
+							<!-- mobile -->
+							<div class="fe-chips-row d-sm-none d-flex">
+								<a href="#" class="fe-chip">
+									<div class="icon"><img src="images/fe-chip-1.png" alt=""></div>
+									<h4>Health & Beauty</h4>
+								</a>
+								<a href="#" class="fe-chip">
+									<div class="icon"><img src="images/fe-chip-2.png" alt=""></div>
+									<h4>Energy</h4>
+								</a>
+								<a href="#" class="fe-chip">
+									<div class="icon"><img src="images/fe-chip-3.png" alt=""></div>
+									<h4>Construction</h4>
+								</a>
+								<a href="#" class="fe-chip">
+									<div class="icon"><img src="images/fe-chip-4.png" alt=""></div>
+									<h4>Media</h4>
+								</a>
+								<a href="#" class="fe-chip">
+									<div class="icon"><img src="images/fe-chip-5.png" alt=""></div>
+									<h4>Security & Defence</h4>
+								</a>
+								<a href="#" class="fe-chip">
+									<div class="icon"><img src="images/fe-chip-6.png" alt=""></div>
+									<h4>Pharmaceutical</h4>
+								</a>
 								<a href="#" class="fe-chip">
 									<div class="icon"><img src="images/fe-chip-7.png" alt=""></div>
 									<h4>Aerospace</h4>
@@ -228,6 +270,7 @@
 								</a>
 							</div>
 						</div>
+						<!-- mobile-end -->
 
 						<div class="about-us__cta-lin">
 							<p><span class="bold">Do you have any upcoming exhibition shows?</span> Call our team on 01663 744066 or send us a message.</p>

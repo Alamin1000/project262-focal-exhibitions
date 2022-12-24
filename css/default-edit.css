@@ -50,6 +50,15 @@
     color: #fff;
     background: var(--theme__color1);
 }
+.sm-button--bordered--white {
+    border: 1px solid #fff;
+    color: #fff;
+    background: transparent;
+}
+.sm-button--bordered--white:hover {
+    background: #fff;
+    color: var(--theme__color1);
+}
 /* buttons-end */
 
 

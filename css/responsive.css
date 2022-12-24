@@ -356,6 +356,121 @@
         width: 30px;
         font-size: 14px;
     }
+
+    .hero__content-number {
+        font-size: 16px;
+    }
+    .hero__content__bt {
+        padding: 30px 0;
+        min-height: 120px;
+    }
+
+
+    .about-clip__auth .image {
+        height: 50px;
+        width: 50px;
+        margin: 0 15px 0 0;
+    }
+    .about-clip__content h3 {
+        font-size: 25px;
+        margin: 0 0 30px;
+    }
+    .count__ellipse----ac-clip-2 {
+        --width: 190px !important;
+        margin: 100px 0px 0px -25px;
+    }
+    .about-clip--counts {
+        margin: 160px 0 -190px !important;
+    }
+    .about-clip-section {
+        padding: 80px 0;
+        margin-bottom: 110px;
+    }
+
+
+
+    .h2-c {
+        font-size: 40px;
+    }
+    .fe-section {
+        padding: 70px 0;
+    }
+    .fe-chip .icon {
+        margin: 0 8px 0 0;
+        width: 22px;
+        height: 22px;
+    }
+    .fe-chip {
+        padding: 9px 11px;
+    }
+    .fe-chip h4 {
+        font-size: 14px;
+    }
+    .fe-chips {
+        margin-top: 30px;
+        margin-bottom: 40px;
+        gap: 11px;
+    }
+    .fe__img-grid {
+        margin: 50px 0 0;
+        grid-gap: 20px;
+    }
+    .principle-section {
+        padding: 50px 0 100px;
+    }
+    .principle__list__item .left h3 {
+        font-size: 25px;
+    }
+    .principle__list {
+        --hr-padding: 18px;
+    }
+    .principle-section__title {
+        margin-bottom: 50px;
+    }
+    .principle__video {
+        margin: 70px 0 0;
+    }
+    .principle__video .video-button {
+        width: 50px;
+        height: 50px;
+    }
+    .principle__list__item .right {
+        padding-right: 40px;
+    }
+
+
+    .about-clip-section--2nd-ttl {
+        margin-bottom: 50px;
+    }
+    .about-clip-section.about-clip-section--2nd {
+        padding-bottom: 200px;
+    }
+
+    .hwd-section {
+        padding: 120px 0 70px;
+    }
+    .hwd-card__content__left h3 {
+        font-size: 40px;
+    }
+    .hwd-card__content {
+        padding: 30px;
+    }
+
+    .hwd-card {
+        height: 520px;
+        border-radius: 12px;
+    }
+    .hwd__ic-wrap {
+        margin: 0 0 70px;
+    }
+    .h5 {
+        font-size: 16px;
+        margin: 0px 0 15px;
+    }
+    .hwd__tc-wrap {
+        margin: 0 0 100px;
+    }
+
 }   
 
 
@@ -385,6 +500,11 @@
     }
     .blog-g--big {
         min-height: 250px;
+    }
+
+    .hwd-card {
+        height: 390px;
+        border-radius: 10px;
     }
 
 
@@ -640,6 +760,96 @@
     .drop-menu__social {
         gap: 20px;
     }
+
+
+    .hero__content-number {
+        font-size: 14px;
+    }
+    .hero__content__bt {
+        padding: 20px 0;
+        min-height: 80px;
+    }
+
+    .about-clip-section {
+        padding: 50px 0;
+        margin-bottom: 0px;
+        background: #E5E5E5;
+    }
+    .about-clip__content h3 {
+        font-size: 20px;
+        margin: 0 0 15px;
+    }
+    .about-clip__auth {
+        margin: 0 0 20px;
+    }
+    .about-clip--counts {
+        margin: 30px 0 0px !important;
+    }
+
+
+    .h2-c {
+        font-size: 22px;
+    }
+    .fe-section {
+        padding: 60px 0;
+    }
+    .fe__img-grid {
+        margin: 30px 0 0;
+        grid-gap: 12px;
+    }
+    .principle__list__item .left h3 {
+        font-size: 16px;
+    }
+    .principle__list__item .left {
+        padding-right: 10px;
+        width: 37%;
+    }
+    .principle__list__item .right {
+        padding-right: 0;
+    }
+
+
+    .about-clip-section--2nd-ttl {
+        margin-bottom: 26px;
+    }
+    .about-clip-section.about-clip-section--2nd {
+        background: #E5E5E5;
+        padding-bottom: 40px;
+    }
+
+
+    .hwd-section {
+        padding: 70px 0 50px;
+    }
+    .hwd-card__content__left h3 {
+        font-size: 20px;
+    }
+    .hwd-card__content {
+        padding: 15px;
+    }
+    .hwd-card {
+        height: 220px;
+        border-radius: 7px;
+    }
+    .hwd__ic-wrap {
+        margin: 0 0 40px;
+    }
+    .h5 {
+        font-size: 14px;
+        margin: 0px 0 12px;
+    }
+    .hwd__tc-wrap {
+        margin: 0 0 40px;
+    }
+
+
+    .sm-button {
+        font-size: 12px;
+        padding: 6px 18px;
+    }
+    .hwd-card__content {
+        flex-wrap: wrap;
+      }
 }
 
 
