@@ -590,6 +590,27 @@
     .contact-us__social li a {
         font-size: 16px;
     }
+
+
+    .h3 {
+        font-size: 25px;
+    }
+    .form-x__title {
+        margin: 0 0 40px;
+    }
+    .input-x {
+        font-size: 16px;
+        padding: 10px 0;
+    }
+    .single-input-x {
+        margin: 0 0 18px;
+    }
+    .form-section {
+        padding: 50px 0 60px;
+    }
+    .from-page-close {
+        font-size: 22px;
+    }
 }   
 
 
@@ -631,6 +652,11 @@
     .d-slide {
         width: 580px;
     }
+
+    .form-section__inner {
+        padding: 0;
+    }
+
 }
 
 
@@ -1050,6 +1076,11 @@
     .contact-us-section {
         padding: 35px 0 60px;
     }
+
+
+    .form-section {
+        padding: 35px 0 50px;
+    }
 }
 
 
@@ -1082,5 +1113,20 @@
     .drop-menu__left {
         width: 97px;
         margin-right: 10px;
+    }
+
+
+    .form-x__title {
+        margin: 0 0 20px;
+    }
+    .input-x {
+        font-size: 15px;
+        padding: 8px 0;
+    }
+    .single-input-x {
+        margin: 0 0 10px;
+    }
+    .h3 {
+        font-size: 22px;
     }
 }

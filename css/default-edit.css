@@ -67,6 +67,14 @@
     color: #fff;
     background: var(--theme__color1);
 }
+.sm-button--theme1 {
+    background: var(--theme__color1);
+    color: #fff;
+}
+.sm-button--theme1:hover {
+    color: #fff;
+    background: #231F20;
+}
 /* buttons-end */
 
 
