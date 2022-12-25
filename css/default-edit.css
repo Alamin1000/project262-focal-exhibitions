@@ -59,6 +59,14 @@
     background: #fff;
     color: var(--theme__color1);
 }
+.sm-button--dark {
+    background: #231F20;
+    color: #fff;
+}
+.sm-button--dark:hover {
+    color: #fff;
+    background: var(--theme__color1);
+}
 /* buttons-end */
 
 
